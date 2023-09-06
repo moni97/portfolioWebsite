@@ -1,0 +1,21 @@
+.header {
+    padding-right: 10px;
+}
+
+.headerLeft {
+    float: left;
+}
+
+.headerRight {
+    float: right;
+}
+
+.headerLeft ul, .headerRight ul {
+    list-style: none;
+}
+
+.headerLeft li, .headerRight li{
+    display: inline;
+    padding: 10px;
+}
+
