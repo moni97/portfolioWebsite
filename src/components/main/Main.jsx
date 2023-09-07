@@ -1,9 +1,12 @@
-import "./main.css";
+import "./main.scss";
+import book from "../../images/book.jpeg";
 
 export default function Main() {
     return (
         <div className="main">
-            <div className="mainRight">Right content</div>
+            <div className="mainRight">
+                <img alt="Aniekt" className="main-image" src={book} ></img>
+            </div>
             <div className="mainLeft">
                 <div className="mainHeading">Hi, I Am Aniket</div>
                 <div className="mainContent">Lorem ipsum dolor sit amet. Et nisi quasi hic voluptas quae et natus Quis in debitis repudiandae aut minus dicta. Aut laborum reprehenderit et commodi voluptatem 33 minus sapiente ut ipsum beatae sit libero voluptatem aut quas enim id dolores sequi.</div>

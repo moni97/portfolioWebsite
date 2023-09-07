@@ -1,5 +1,9 @@
+@import '../../styles/variables'; 
+
 .header {
     padding-right: 10px;
+    background-color: $primary-color;
+    color: $secondary-color;
 }
 
 .headerLeft {
