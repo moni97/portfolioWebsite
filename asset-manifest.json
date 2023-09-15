@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b78a6b0c.css",
+    "main.js": "/static/js/main.690ce25c.js",
+    "static/media/book.jpeg": "/static/media/book.79196a91f5bb2f363caa.jpeg",
+    "static/media/python.svg": "/static/media/python.256a89229086f149e2d170f4a5218348.svg",
+    "static/media/tensorflow.svg": "/static/media/tensorflow.665cc220abca4765fafcac13d7c732a7.svg",
+    "static/media/keras.svg": "/static/media/keras.4ed2f6a67324ce85dbd96356a67b2158.svg",
+    "index.html": "/index.html",
+    "static/media/pytorch.svg": "/static/media/pytorch.8653d1d6d7ba93c4c4ed583bbd51fb99.svg",
+    "main.b78a6b0c.css.map": "/static/css/main.b78a6b0c.css.map",
+    "main.690ce25c.js.map": "/static/js/main.690ce25c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b78a6b0c.css",
+    "static/js/main.690ce25c.js"
+  ]
+}
