@@ -5,3 +5,18 @@
   background-color: $primary-color;
   color: $secondary-color;
 }
+ 
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.sectionHeading {
+  font-size: 50px;
+  margin: 20px
+}
+
+.sectionDefault {
+  height: 100vh;
+  background-color: $primary-color;
+}

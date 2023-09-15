@@ -1,0 +1,47 @@
+@import '../../styles/variables'; 
+
+.interests {
+    height: 100vh;
+}
+
+.interests .vertical-tabs {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: $primary-color;
+}
+
+.interests .MuiTabs-root {
+    width: 30%;
+}
+
+.interests .MuiButtonBase-root {
+    height: 200px;
+    color: $secondary-color;
+    font-weight: bolder;
+    font-size: x-large;
+    cursor: pointer;
+    max-width: 100%;
+    width: 100%;
+}
+
+.interests .MuiButtonBase-root.Mui-selected {
+    background-color: #635985;
+    color: #393053 !important;
+}
+
+.interests .tab-content {
+    padding: 30px;
+    width: 70%;
+    font-size: 20px;
+    background-color: #635985;
+    color: #393053;
+}
+
+.interests .tab-content div {
+    justify-content: center;
+}
+
+.interests .vertical-tabs span.MuiTabs-indicator{
+    background-color: #18122B;
+}

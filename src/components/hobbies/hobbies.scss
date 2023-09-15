@@ -1,0 +1,15 @@
+@import '../../styles/variables'; 
+
+.hobbies {
+    background-color: $primary-color;
+}
+
+.hobbiesTileContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.hobbies .hobbiesTileContainer .hobbiesCard{
+    width: 500px;
+}

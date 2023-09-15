@@ -6,29 +6,24 @@
     color: $secondary-color;
     align-items: center;
     display: flex;
-    flex-direction: row ;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.main img {
-    height: 500px;
+.mainLeft, .mainRight {
+    height: 50%;
     width: 500px;
 }
 
 .mainRight {
-    // float: right;
-   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.mainLeft {
-    // float: left;
-    top: 50%;
-    position: absolute;
-    padding: 20px;
-    flex: 1;
-}
-
-.mainLeft, .mainRight {
-    width: 50%;
+.mainRight div {
+    padding: 25px; 
 }
 
 .mainHeading {
@@ -37,5 +32,6 @@
 
 .main-image {
     object-fit: cover;
-    margin: 50px 0 10px 10px;
+    height: 400px;
+    width: 500px;
 }
