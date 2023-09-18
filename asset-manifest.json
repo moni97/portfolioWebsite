@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.b78a6b0c.css",
-    "main.js": "/react-gh-pages/static/js/main.be486292.js",
-    "static/media/book.jpeg": "/react-gh-pages/static/media/book.79196a91f5bb2f363caa.jpeg",
-    "static/media/python.svg": "/react-gh-pages/static/media/python.256a89229086f149e2d170f4a5218348.svg",
-    "static/media/tensorflow.svg": "/react-gh-pages/static/media/tensorflow.665cc220abca4765fafcac13d7c732a7.svg",
-    "static/media/keras.svg": "/react-gh-pages/static/media/keras.4ed2f6a67324ce85dbd96356a67b2158.svg",
-    "index.html": "/react-gh-pages/index.html",
-    "static/media/pytorch.svg": "/react-gh-pages/static/media/pytorch.8653d1d6d7ba93c4c4ed583bbd51fb99.svg",
-    "main.b78a6b0c.css.map": "/react-gh-pages/static/css/main.b78a6b0c.css.map",
-    "main.be486292.js.map": "/react-gh-pages/static/js/main.be486292.js.map"
+    "main.css": "//moni97.github.io/portfolioWebsite/static/css/main.b78a6b0c.css",
+    "main.js": "//moni97.github.io/portfolioWebsite/static/js/main.e84c331b.js",
+    "static/media/book.jpeg": "//moni97.github.io/portfolioWebsite/static/media/book.79196a91f5bb2f363caa.jpeg",
+    "static/media/python.svg": "//moni97.github.io/portfolioWebsite/static/media/python.256a89229086f149e2d170f4a5218348.svg",
+    "static/media/tensorflow.svg": "//moni97.github.io/portfolioWebsite/static/media/tensorflow.665cc220abca4765fafcac13d7c732a7.svg",
+    "static/media/keras.svg": "//moni97.github.io/portfolioWebsite/static/media/keras.4ed2f6a67324ce85dbd96356a67b2158.svg",
+    "index.html": "//moni97.github.io/portfolioWebsite/index.html",
+    "static/media/pytorch.svg": "//moni97.github.io/portfolioWebsite/static/media/pytorch.8653d1d6d7ba93c4c4ed583bbd51fb99.svg",
+    "main.b78a6b0c.css.map": "//moni97.github.io/portfolioWebsite/static/css/main.b78a6b0c.css.map",
+    "main.e84c331b.js.map": "//moni97.github.io/portfolioWebsite/static/js/main.e84c331b.js.map"
   },
   "entrypoints": [
     "static/css/main.b78a6b0c.css",
-    "static/js/main.be486292.js"
+    "static/js/main.e84c331b.js"
   ]
 }
