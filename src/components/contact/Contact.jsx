@@ -1,25 +1,46 @@
 import "./contact.scss";
+import Form from 'react-bootstrap/Form';
+import InputGroup from 'react-bootstrap/InputGroup';
+import Button from 'react-bootstrap/Button';
 
 export default function Contact() {
     return (
         <div className="contact sectionDefault">
-            <p className="sectionHeading">Contact me?</p>
-            <div className="contactContainer container">
-                <form>
-                    <div className="form-group">
-                        <label htmlFor="name">Name:</label>
-                        <input type="text" className="form-control" id="name" placeholder="Enter your name" />
-                    </div>
-                    <div className="form-group">
-                        <label htmlFor="email">Email:</label>
-                        <input type="email" className="form-control" id="email" placeholder="Enter your email" />
-                    </div>
-                        <div className="form-group">
-                        <label htmlFor="message">Message:</label>
-                        <textarea className="form-control" id="message" rows="4" placeholder="Enter your message"></textarea>
-                    </div>
-                    <button type="submit" className="btn btn-primary submitButton">Submit</button>
-                </form>
+            <p className="sectionHeading">Get in touch</p>
+            <div className="contactContainer">
+                <div className="contactForm container">
+                    <InputGroup className="mb-3">
+                        <InputGroup.Text id="basic-addon1">
+                            <i className="fa-regular fa-user"></i>
+                        </InputGroup.Text>
+                        <Form.Control
+                        placeholder="Username"
+                        aria-label="Username"
+                        aria-describedby="basic-addon1"
+                        />
+                    </InputGroup>
+                    <InputGroup className="mb-3">
+                        <InputGroup.Text id="basic-addon1">
+                            <i className="fa-regular fa-envelope"></i>
+                        </InputGroup.Text>
+                        <Form.Control
+                        placeholder="email"
+                        aria-label="email"
+                        aria-describedby="basic-addon1"
+                        />
+                    </InputGroup>
+
+                    <InputGroup>
+                        <InputGroup.Text>
+                            <i className="fa-regular fa-message"></i>
+                        </InputGroup.Text>
+                        <Form.Control className="textarea" as="textarea" placeholder="message" aria-label="With textarea" />
+                    </InputGroup>
+                    <Button variant="secondary">Submit</Button>{' '}
+                </div>
+                <div className="contactCard">
+                    contact card
+                </div>
             </div>
         </div>
     )

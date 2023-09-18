@@ -1,8 +1,43 @@
 .contact .contactContainer {
-    width: 50%;
     height: 100%;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.contact .contactContainer label, .contact .contactContainer .submitButton{
+.contact .contactForm label, .contact .contactForm .submitButton{
     margin: 20px
+}
+
+.fileElement {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.input-group {
+    padding: 20px;
+    width: 100px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.contact button {
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.contactCard {
+    flex: 1;
+    height: 500px;
+    background-color: #635985;
+}
+
+.contactForm {
+    flex: 1;
 }

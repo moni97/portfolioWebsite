@@ -1,7 +1,5 @@
 import "./main.scss";
 import book from "../../images/book.jpeg";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 export default function Main() {
     return (
@@ -13,7 +11,6 @@ export default function Main() {
                 <div className="mainHeading">Hi, I Am Aniket</div>
                 <div className="mainContent">Lorem ipsum dolor sit amet. Et nisi quasi hic voluptas quae et natus Quis in debitis repudiandae aut minus dicta. Aut laborum reprehenderit et commodi voluptatem 33 minus sapiente ut ipsum beatae sit libero voluptatem aut quas enim id dolores sequi.</div>
                 <div className="mainIcons">
-                    <FontAwesomeIcon icon={faGithub} />
                 </div>
             </div>
         </div>
