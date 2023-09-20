@@ -26,6 +26,7 @@ export default function Interests() {
             content: <div className="cvTab">This is computer vision tab</div>,
         },
       ];
+
     return (
         <div className="interests sectionDefault">
           <p className="sectionHeading">What I do?</p>

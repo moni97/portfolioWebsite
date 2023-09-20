@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
+import "./verticalTabs.scss";
 
 const VerticalTabs = ({ tabs }) => {
   const [activeTab, setActiveTab] = useState(0);

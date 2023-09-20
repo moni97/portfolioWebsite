@@ -1,7 +1,6 @@
 import Particles from "react-tsparticles";
-import { loadSlim } from "tsparticles-slim";
 import { loadFull } from "tsparticles";
-import { useCallback, useMemo } from "react";
+import { useMemo } from "react";
 import "./particle.css";
 
 export default function Particle() {
@@ -62,7 +61,7 @@ export default function Particle() {
                         "distance": 200
                     },
                     "push": {
-                        "particles_nb": 1
+                        "particles_nb": 4
                     },
                     "remove": {
                         "particles_nb": 2
