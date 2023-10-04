@@ -16,7 +16,7 @@
 }
 
 .interests .MuiButtonBase-root {
-    height: 200px;
+    height: 180px;
     color: $secondary-color;
     font-weight: bolder;
     font-size: x-large;
@@ -33,19 +33,27 @@
     border-radius: 10px; /* Rounded corners */
 }
 
+.interests .MuiTabScrollButton-root {
+    display: none;
+}
+
 .interests .tab-content {
-    padding: 30px;
+    padding: 150px;
     width: 70%;
     font-size: 20px;
     // background-color: #635985;
     box-shadow: 0 0 10px #635985, 0 0 20px #635985;
     border: 2px solid #635985;
     color: $secondary-color;
-    font-weight: 700;
+    font-weight: bolder;
 }
 
-.interests .tab-content div {
-    justify-content: center;
+.interests .tabContentList {
+    list-style-type: none;
+}
+
+.interests .tabContentList li {
+    padding: 10px;
 }
 
 .interests .vertical-tabs span.MuiTabs-indicator{

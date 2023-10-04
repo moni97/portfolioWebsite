@@ -32,7 +32,7 @@ export default function Main() {
             </div> */}
             <div className="mainRight">
                 <div className="mainHeading">{text}</div>
-                <div className="mainContent">Lorem ipsum dolor sit amet. Et nisi quasi hic voluptas quae et natus Quis in debitis repudiandae aut minus dicta. Aut laborum reprehenderit et commodi voluptatem 33 minus sapiente ut ipsum beatae sit libero voluptatem aut quas enim id dolores sequi.</div>
+                <div className="mainContent">I'm an AI Researcher currently pursuing my PhD in AI at the University of Illinois at Chicago. My current research interests are multi-agent learning and planning, AI language, and communication. </div>
                 <div className="mainIcons">
                 </div>
             </div>

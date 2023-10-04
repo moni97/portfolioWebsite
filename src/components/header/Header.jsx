@@ -6,13 +6,13 @@ export default function Header() {
             <div className='headerLeft'>
             </div>
             <div className='headerRight'>
-            <ul>
-                    <li>Home</li>
-                    <li>Education</li>
-                    <li>Experience</li>
-                    <li>Research</li>
-                    <li>Projects</li>
-                    <li>Blog</li>
+                <ul>
+                    <li><a href="http://localhost:3000/portfolioWebsite/">Home</a></li>
+                    <li><a href="http://localhost:3000/portfolioWebsite/education">Education</a></li>
+                    <li><a href="http://localhost:3000/portfolioWebsite/experience">Experience</a></li>
+                    <li><a href="http://localhost:3000/portfolioWebsite/research">Research</a></li>
+                    <li><a href="http://localhost:3000/portfolioWebsite/projects">Projects</a></li>
+                    <li><a href="http://localhost:3000/portfolioWebsite/blog">Blog</a></li>
                 </ul>
             </div>
         </div>

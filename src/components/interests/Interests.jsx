@@ -5,25 +5,41 @@ export default function Interests() {
     const tabs = [
         {
           label: 'Airtifical Intelligence',
-          content: <div className="aiTab">In publishing and graphic design, Lorem ipsum (/ˌlɔː.rəm ˈɪp.səm/) is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available. It is also used to temporarily replace text in a process called greeking, which allows designers to consider the form of a webpage or publication, without the meaning of the text influencing the design.
-
+          content: <div className="aiTab">
+            <ul className="tabContentList">
+              <li>- Pursuing a Doctorate, under Professor Piotr Gmytriciewicz(check spelling).</li>
+              <li>- Developing new frameworks and insights into multi-agent interaction and communication. </li>
+              <li>- Looking into the theory of mind and architectures for multi-agent planning. </li>
+              <li>- Looking into multi-agent communication possible models of communication and information volunteering in different environments.</li>
+            </ul>
+        </div>,
+        },
+        {
+          label: 'Reinforcement Learning',
+          content: <div className="aiTab"> Citations (mention as a point somehow)
+          - I developed a research paper based off of it @ link to paper.
+          (Slideshow of how the project works if possible?)
+          - Link to the project with thiru. 
         </div>,
         },
         {
           label: 'Data Science',
           content: <div className="dsTab"> 
-             Lorem ipsum is typically a corrupted version of De finibus bonorum et malorum, a 1st-century BC text by the Roman statesman and philosopher Cicero, with words altered, added, and removed to make it nonsensical and improper Latin. The first two words themselves are a truncation of 'dolorem ipsum' ('pain itself').
-          
-          Versions of the Lorem ipsum text have been used in typesetting at least since the 1960s, when it was popularized by advertisements for Letraset transfer sheets.[1] Lorem ipsum was introduced to the digital world in the mid-1980s, when Aldus employed it in graphic and word-processing templates for its desktop publishing program PageMaker. Other popular word processors, including Pages and Microsoft Word, have since adopted Lorem ipsum,[2] as have many LaTeX packages,[3][4][5] web content managers such as Joomla! and WordPress, and CSS libraries such as Semantic UI
+          - I'm an excellent orator and very proficient at Data Science storytelling.
+- Proficient at deploying and training models on extremely large amounts of data.
+- Adept at inventing and developing new use cases from scratch that add value to an organization.
           </div>,
         },
         {
           label: 'Deep Learning',
-          content: <div className="dlTab">This is deep learning tab</div>,
+          content: <div className="dlTab">- Adept at using pytorch for Developing, Training, and Finetuning Models.
+          - Adept at theory and practical use of novel Reinforcement Learning architectures. 
+          - Passed a really hard Neural Networks Class CD 569(number wrong).</div>,
         },
         {
             label: 'Computer Vision',
-            content: <div className="cvTab">This is computer vision tab</div>,
+            content: <div className="cvTab">- Can develop and use computer vision models for real-world applications for example Classifying videos from camera videos attached to aurdrino chips)
+            - Developed solutions to classify objects Based on extracted pixel ratios from raw pixel data</div>,
         },
       ];
 

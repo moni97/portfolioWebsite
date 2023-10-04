@@ -2,6 +2,7 @@ import "./contact.scss";
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 import Button from 'react-bootstrap/Button';
+import ContactLogo from '../../images/call-me.png';
 
 export default function Contact() {
     return (
@@ -39,7 +40,9 @@ export default function Contact() {
                     <Button variant="secondary">Submit</Button>{' '}
                 </div>
                 <div className="contactCard">
-                    contact card
+                    <p className="contactPhoto">
+                        <img alt="" src={ContactLogo}></img>
+                    </p>
                 </div>
             </div>
         </div>

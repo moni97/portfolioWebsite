@@ -3,7 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 export default function Testimonials() {
     return (
-        <div className="testimonials">
+        <div className="testimonials sectionDefault">
             <p className="sectionHeading">What others say?</p>
             <div className="carouselContainer">
                 <Carousel>

@@ -1,10 +1,10 @@
 .contact .contactContainer {
-    height: 100%;
     display: flex;
     flex-direction: row;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 100px;
 }
 
 .contact .contactForm label, .contact .contactForm .submitButton{
@@ -35,7 +35,13 @@ textarea {
 .contactCard {
     flex: 1;
     height: 500px;
-    background-color: #635985;
+    // background-color: #635985;
+}
+
+.contactCard img {
+    height: 300px;
+    width: 300px;
+    margin-left: 20px 
 }
 
 .contactForm {
