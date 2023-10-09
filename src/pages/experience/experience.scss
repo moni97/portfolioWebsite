@@ -1,0 +1,53 @@
+@import '../../styles/variables.scss'; 
+
+.experience {
+    background-color: $primary-color;
+    color: $secondary-color;
+    display: flex;
+    flex-direction: column;
+    .vertical-timeline-element-title {
+        margin: 5px;
+    }
+    .vertical-timeline-element-subtitle, .vertical-timeline-element-list {
+        margin: 5px;
+    }
+}
+
+.education {
+    display: block;
+    margin-top: 100px;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.educationHeading {
+    display: flex;
+    width: 35%;
+    padding-top: 300px;
+    padding-left: 300px;
+    font-size: xxx-large;
+}
+
+.educationContent {
+    .experienceItem:nth-child(odd) {
+        border-radius: 100px 0px 0px;
+    }
+    .experienceItem:nth-child(even) {
+        border-radius: 0px 0px 100px 0px;
+        margin-left: 300px;
+    }
+}
+
+.work {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.workHeading {
+    display: flex;
+    justify-content: center;
+    font-size: xxx-large;
+    height: 300px;
+}

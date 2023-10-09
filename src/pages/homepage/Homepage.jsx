@@ -6,11 +6,13 @@ import Interests from '../../components/interests/Interests';
 import Testimonials from '../../components/testimonials/Testimonials';
 import Hobbies from '../../components/hobbies/Hobbies';
 import Contact from '../../components/contact/Contact';
+import Particle from '../../components/particles/Particle';
 
 export default function Homepage() {
     return (
         <>
             <div className='homepage'>
+                <Particle></Particle>
                 <Header></Header>
                 <Main></Main>
                 <Interests></Interests>

@@ -1,0 +1,71 @@
+[
+    {
+        "title": "Automation Intern",
+        "place": "CSS Corp (Movate)",
+        "location": "Chennai",
+        "date": "June 1, 2017 - August 1, 2017",
+        "projectList": [
+            "The Image ratio distortion on zoom for 200%",
+            "NVDA plugin to store the spoken history on a text file",
+            "Search Engine Results",
+            "Vlookup Implementation"
+        ]
+    },
+    {
+        "title": "Machine Learning Intern",
+        "place": "IceCream Labs",
+        "location": "Bangalore",
+        "date": "June 1, 2018 - August 1, 2018",
+        "projectList": [
+            "Visual Search",
+            "Fashion Design Overlay",
+            "Variable Multiple Instance Learning",
+            "Nutrition Table Mapping"
+        ]
+    },
+    {
+        "title": "Analytics Intern",
+        "place": "Spinnaker Analytics",
+        "location": "Mumbai",
+        "date": "January 4, 2019 - April 29, 2019",
+        "projectList": [
+            "Boston Children's Museum",
+            "Return Prediction"
+        ]
+    },
+    {
+        "title": "Machine Learning Engineer",
+        "place": "IceCream Labs",
+        "location": "Bangalore",
+        "date": "August 1, 2019 - November 1, 2019",
+        "projectList": ["Logo Prediction"]
+    },
+    {
+        "title": "Deep Learning Engineer",
+        "place": "Sensight Labs (Friendly brands now)",
+        "location": "Bangalore",
+        "date": "November 1, 2019 - March 1, 2019",
+        "projectList": [
+            "Detecting when products are put into a cart",
+            "Webscraping for Grocery App",
+            "Automated data analysis",
+            "Colour based item selection",
+            "Created a Visual image Textbased search engine",
+            "Created a cropping tool + object tracking tool"
+        ]
+    },
+    {
+        "title": "Data Science Intern",
+        "place": "Dell",
+        "location": "Austin, Texas",
+        "date": "May 1, 2022 - August 1, 2022",
+        "projectList": ["Sentence Embedding Search"]
+    },
+    {
+        "title": "Data Science Intern",
+        "place": "Dell",
+        "location": "Austin, Texas",
+        "date": "May 1, 2023 - August 1, 2023",
+        "projectList": ["Prompt Engineer"]
+    }
+]
