@@ -1,17 +1,37 @@
 {
   "files": {
-    "main.css": "/portfolioWebsite/static/css/main.eaad377e.css",
-    "main.js": "/portfolioWebsite/static/js/main.ee10be22.js",
+    "main.css": "/portfolioWebsite/static/css/main.7338dd55.css",
+    "main.js": "/portfolioWebsite/static/js/main.3f2135e5.js",
+    "static/media/boardGames1.webp": "/portfolioWebsite/static/media/boardGames1.ccbf956788505936bde6.webp",
+    "static/media/basketball.webp": "/portfolioWebsite/static/media/basketball.30e5e517b923a63967ee.webp",
+    "static/media/piano.png": "/portfolioWebsite/static/media/piano.759e0d2b81729deebe81.png",
+    "static/media/sample.jpeg": "/portfolioWebsite/static/media/sample.cd8f0ab3fff0ec5a9130.jpeg",
+    "static/media/swimming1.jpeg": "/portfolioWebsite/static/media/swimming1.81e4bdec1a55637d71db.jpeg",
+    "static/media/book.jpeg": "/portfolioWebsite/static/media/book.79196a91f5bb2f363caa.jpeg",
+    "static/media/gaming.webp": "/portfolioWebsite/static/media/gaming.02d79572acdc248484e7.webp",
+    "static/media/boardGames.jpeg": "/portfolioWebsite/static/media/boardGames.b2b8a4d6f9b5371afdb1.jpeg",
+    "static/media/piano.jpeg": "/portfolioWebsite/static/media/piano.3c59b2461897e446ec0d.jpeg",
+    "static/media/boardgames.jpg": "/portfolioWebsite/static/media/boardgames.b2e159a67d734be810c5.jpg",
+    "static/media/piano1.webp": "/portfolioWebsite/static/media/piano1.e6306ad61f0745db020b.webp",
+    "static/media/call-me.png": "/portfolioWebsite/static/media/call-me.5fb16a158cfcf01a2531.png",
+    "static/media/manipal.webp": "/portfolioWebsite/static/media/manipal.b99f596bbdb5a750881c.webp",
+    "static/media/swimming.jpeg": "/portfolioWebsite/static/media/swimming.2af0093b9334a4d985ec.jpeg",
+    "static/media/jupyter.svg": "/portfolioWebsite/static/media/jupyter.78e712bcd4cd70aafdfb7b458b1f1bbc.svg",
+    "static/media/openai-gym.svg": "/portfolioWebsite/static/media/openai-gym.1d94a361c1c6dadf0a6c8eb77d60cf97.svg",
+    "static/media/openai-gym1.svg": "/portfolioWebsite/static/media/openai-gym1.b3b3175708e2038983a5.svg",
     "static/media/python.svg": "/portfolioWebsite/static/media/python.256a89229086f149e2d170f4a5218348.svg",
     "static/media/tensorflow.svg": "/portfolioWebsite/static/media/tensorflow.665cc220abca4765fafcac13d7c732a7.svg",
     "static/media/keras.svg": "/portfolioWebsite/static/media/keras.4ed2f6a67324ce85dbd96356a67b2158.svg",
     "index.html": "/portfolioWebsite/index.html",
+    "static/media/pandas.svg": "/portfolioWebsite/static/media/pandas.7363fd001dc260dbe2764ffb430b3e21.svg",
+    "static/media/git.svg": "/portfolioWebsite/static/media/git.c60b7e5ae8ec2562f23fdddcab300026.svg",
+    "static/media/numpy.svg": "/portfolioWebsite/static/media/numpy.208e250c6332c7bd55413a95080d228f.svg",
     "static/media/pytorch.svg": "/portfolioWebsite/static/media/pytorch.8653d1d6d7ba93c4c4ed583bbd51fb99.svg",
-    "main.eaad377e.css.map": "/portfolioWebsite/static/css/main.eaad377e.css.map",
-    "main.ee10be22.js.map": "/portfolioWebsite/static/js/main.ee10be22.js.map"
+    "main.7338dd55.css.map": "/portfolioWebsite/static/css/main.7338dd55.css.map",
+    "main.3f2135e5.js.map": "/portfolioWebsite/static/js/main.3f2135e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.eaad377e.css",
-    "static/js/main.ee10be22.js"
+    "static/css/main.7338dd55.css",
+    "static/js/main.3f2135e5.js"
   ]
 }
