@@ -17,7 +17,7 @@ export default function Hobbies() {
                         <Col ><Image src={boardGames1} fluid></Image></Col>
                         <Col><Image src={swimmingPool} fluid></Image></Col>
                     </Row>
-                    <Row noGutters>
+                    <Row>
                         <Col>
                         <Image src={gaming} fluid></Image>
                            

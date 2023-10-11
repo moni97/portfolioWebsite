@@ -20,6 +20,10 @@
 .headerRight {
     float: right;
     padding-top: 20px;
+    .nav-link:focus, .nav-link:hover {
+        color: $secondary-color;
+        border: 1px solid $secondary-color;
+    }
 }
 
 .headerLeft ul, .headerRight ul {
@@ -30,4 +34,3 @@
     display: inline;
     padding: 20px;
 }
-
