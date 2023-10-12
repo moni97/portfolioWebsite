@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolioWebsite/static/css/main.7338dd55.css",
-    "main.js": "/portfolioWebsite/static/js/main.3f2135e5.js",
+    "main.css": "/portfolioWebsite/static/css/main.3376d542.css",
+    "main.js": "/portfolioWebsite/static/js/main.d85b3505.js",
     "static/media/boardGames1.webp": "/portfolioWebsite/static/media/boardGames1.ccbf956788505936bde6.webp",
     "static/media/basketball.webp": "/portfolioWebsite/static/media/basketball.30e5e517b923a63967ee.webp",
     "static/media/piano.png": "/portfolioWebsite/static/media/piano.759e0d2b81729deebe81.png",
@@ -10,6 +10,7 @@
     "static/media/book.jpeg": "/portfolioWebsite/static/media/book.79196a91f5bb2f363caa.jpeg",
     "static/media/gaming.webp": "/portfolioWebsite/static/media/gaming.02d79572acdc248484e7.webp",
     "static/media/boardGames.jpeg": "/portfolioWebsite/static/media/boardGames.b2b8a4d6f9b5371afdb1.jpeg",
+    "static/media/coding.jpeg": "/portfolioWebsite/static/media/coding.33c52dd44899c41a3aa7.jpeg",
     "static/media/piano.jpeg": "/portfolioWebsite/static/media/piano.3c59b2461897e446ec0d.jpeg",
     "static/media/boardgames.jpg": "/portfolioWebsite/static/media/boardgames.b2e159a67d734be810c5.jpg",
     "static/media/piano1.webp": "/portfolioWebsite/static/media/piano1.e6306ad61f0745db020b.webp",
@@ -27,11 +28,11 @@
     "static/media/git.svg": "/portfolioWebsite/static/media/git.c60b7e5ae8ec2562f23fdddcab300026.svg",
     "static/media/numpy.svg": "/portfolioWebsite/static/media/numpy.208e250c6332c7bd55413a95080d228f.svg",
     "static/media/pytorch.svg": "/portfolioWebsite/static/media/pytorch.8653d1d6d7ba93c4c4ed583bbd51fb99.svg",
-    "main.7338dd55.css.map": "/portfolioWebsite/static/css/main.7338dd55.css.map",
-    "main.3f2135e5.js.map": "/portfolioWebsite/static/js/main.3f2135e5.js.map"
+    "main.3376d542.css.map": "/portfolioWebsite/static/css/main.3376d542.css.map",
+    "main.d85b3505.js.map": "/portfolioWebsite/static/js/main.d85b3505.js.map"
   },
   "entrypoints": [
-    "static/css/main.7338dd55.css",
-    "static/js/main.3f2135e5.js"
+    "static/css/main.3376d542.css",
+    "static/js/main.d85b3505.js"
   ]
 }
