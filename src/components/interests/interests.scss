@@ -19,7 +19,6 @@
     height: 180px;
     color: $secondary-color;
     font-weight: bolder;
-    font-size: x-large;
     cursor: pointer;
     max-width: 100%;
     width: 100%;
@@ -40,12 +39,12 @@
 .interests .tab-content {
     padding: 150px;
     width: 70%;
-    font-size: 20px;
     // background-color: #635985;
     box-shadow: 0 0 10px #635985, 0 0 20px #635985;
     border: 2px solid #635985;
     color: $secondary-color;
     font-weight: bolder;
+    flex:1;
 }
 
 .interests .tabContentList {
@@ -58,4 +57,48 @@
 
 .interests .vertical-tabs span.MuiTabs-indicator{
     background-color: #18122B;
+}
+
+@media(min-width: 320px) {
+    .interests .tab-content {
+        padding: 20px;
+        font-size: 15px;
+    }
+    .interests .MuiButtonBase-root {
+        height: 120px;
+        font-size: 15px;
+    }
+}
+
+@media(min-width: 768px) {
+    .interests .tab-content {
+        padding: 50px;
+        font-size: 15px;
+    }
+    .interests .MuiButtonBase-root {
+        height: 150px;
+        font-size: 15px;
+    }
+}
+
+@media(min-width: 1024px) {
+    .interests .tab-content {
+        padding: 60px;
+        font-size: 20px;
+    }
+    .interests .MuiButtonBase-root {
+        height: 120px;
+        font-size: 15px;
+    }
+}
+
+@media(min-width: 1280px) {
+    .interests .tab-content {
+        padding: 80px;
+        font-size: 20px;
+    }
+    .interests .MuiButtonBase-root {
+        height: 180px;
+        font-size: 15px;
+    }
 }

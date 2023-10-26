@@ -17,9 +17,9 @@ export default function Header() {
                         <Nav className="me-auto">
                             <Nav.Link href="http://localhost:3000/portfolioWebsite/" onClick={handleMenuItemClick}>Home</Nav.Link>
                             <Nav.Link href="http://localhost:3000/portfolioWebsite/experience">Experience</Nav.Link>
-                            <Nav.Link href="http://localhost:3000/portfolioWebsite/research">Research</Nav.Link>
+                            {/* <Nav.Link href="http://localhost:3000/portfolioWebsite/research">Research</Nav.Link> */}
                             <Nav.Link href="http://localhost:3000/portfolioWebsite/projects">Projects</Nav.Link>
-                            <Nav.Link href="http://localhost:3000/portfolioWebsite/blog">Blog</Nav.Link>
+                            {/* <Nav.Link href="http://localhost:3000/portfolioWebsite/blog">Blog</Nav.Link> */}
                         </Nav>
                     </Container>
                 </Navbar>
