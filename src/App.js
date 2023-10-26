@@ -10,9 +10,9 @@ function App() {
     <Router>
       {/* <Particle></Particle> */}
       <Routes>
-        <Route path="/portfolioWebsite/" element={<Homepage/>}/>
-        <Route path="/portfolioWebsite/experience" element={<Experience/>}/>
-        <Route path="/portfolioWebsite/projects" element={<Project/>}/>
+        <Route exact path="/portfolioWebsite/" element={<Homepage/>}/>
+        <Route exact path="/portfolioWebsite/experience" element={<Experience/>}/>
+        <Route exact path="/portfolioWebsite/projects" element={<Project/>}/>
       </Routes>
     </Router>
   );
