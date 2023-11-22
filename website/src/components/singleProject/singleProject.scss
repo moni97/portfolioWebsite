@@ -1,0 +1,9 @@
+@import '../../styles/variables'; 
+
+.singleProject {
+    background-color: $primary-color;
+    color: $secondary-color;
+    height: 100vh;
+    padding: 50px;
+    word-wrap: break-word;
+}

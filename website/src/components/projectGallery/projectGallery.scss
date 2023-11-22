@@ -1,0 +1,39 @@
+@import '../../styles/variables'; 
+
+.projectGallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .card {
+        margin: 30px;
+    }
+    .filters {
+        button {
+            color: $secondary-color;
+            background-color: $primary-color;
+            border: 1px solid $secondary-color;
+            margin: 10px;
+        }
+        button:focus, button:hover {
+            color: $primary-color;
+            background-color: $secondary-color;
+            cursor: pointer;
+        }
+    }
+    
+    @media(min-width: 1024px) {
+        .row {
+            width: 80%;
+        }
+    }
+    
+    @media(min-width: 1280px) {
+        .row {
+            width: 80%;
+        }
+    }
+
+}
+
+

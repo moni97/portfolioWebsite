@@ -1,0 +1,32 @@
+@import '../../styles/variables'; 
+
+.skills {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $secondary-color;
+    flex: 1;
+}
+
+.skills-icon-container {
+    margin: 30px;
+}
+
+.skills-icon-container .row {
+    margin: 50px;
+}
+
+.skill-icon-list-item {
+    padding-right: 100px;
+}
+
+svg {
+    width: 120px;
+    height: 120px;
+}
+ 
+// .skill-icon-list-item:hover {
+//     transform: scale(1.2);
+// }

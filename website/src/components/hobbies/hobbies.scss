@@ -1,0 +1,23 @@
+@import '../../styles/variables'; 
+
+.hobbies {
+    background-color: $primary-color;
+    flex: 1;
+}
+
+.hobbiesTileContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.hobbies .hobbiesTileContainer .hobbiesCard{
+    width: 500px;
+    height: 370px;
+}
+
+.hobbiesTileContainer img {
+    height: 309px;
+    width: 100%;
+    object-fit: cover;
+}
