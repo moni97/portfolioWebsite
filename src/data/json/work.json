@@ -1,5 +1,12 @@
 [
     {
+        "title": "BE Computer Science",
+        "place": "Manipal Universty, Jaipur Campus",
+        "location": "Jaipur, India",
+        "date": "August 1, 2015 - April 30, 2019",
+        "icon": "manipal.webp"
+    },
+    {
         "title": "Automation Intern",
         "place": "CSS Corp (Movate)",
         "location": "Chennai",
@@ -55,17 +62,33 @@
         ]
     },
     {
+        "title": "MS Computer Science",
+        "place": "University of Illinois, Chciago",
+        "location": "Chicago, Illinois",
+        "date": "August 23, 2021 - April 30, 2022",
+        "icon": "uic.png"
+    },
+    {
         "title": "Data Science Intern",
         "place": "Dell",
         "location": "Austin, Texas",
         "date": "May 1, 2022 - August 1, 2022",
-        "projectList": ["Sentence Embedding Search"]
+        "projectList": ["Sentence Embedding Search"],
+        "icon": "dell.svg"
+    },
+    {
+        "title": "PHD Computer Science",
+        "place": "University of Illinois, Chciago",
+        "location": "Chicago, Illinois",
+        "date": "August 23, 2022 - Present",
+        "icon": "uic.png"
     },
     {
         "title": "Data Science Intern",
         "place": "Dell",
         "location": "Austin, Texas",
         "date": "May 1, 2023 - August 1, 2023",
-        "projectList": ["Prompt Engineer"]
+        "projectList": ["Prompt Engineer"],
+        "icon": "dell.svg"
     }
 ]

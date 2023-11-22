@@ -13,6 +13,17 @@
     }
 }
 
+.experienceIcon {
+    position: absolute;
+    background-color: $primary-color;
+    border-radius: 50%;
+    padding: 3px;
+    img {
+        height: 54px;
+        width: 54px;
+    }
+}
+
 .education {
     display: block;
     margin-top: 100px;

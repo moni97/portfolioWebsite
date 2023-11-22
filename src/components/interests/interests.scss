@@ -2,6 +2,7 @@
 
 .interests {
     height: 100vh;
+    flex: 1;
 }
 
 .interests .vertical-tabs {
@@ -26,8 +27,8 @@
 
 .interests .MuiButtonBase-root.Mui-selected {
     color: $secondary-color;
-    animation: pulse 1s infinite alternate; 
-    box-shadow: 0 0 10px #635985, 0 0 20px #635985; /* Box shadow with multiple layers */
+    // animation: pulse 1s infinite alternate; 
+    // box-shadow: 0 0 10px #635985, 0 0 20px #635985; /* Box shadow with multiple layers */
     border: 2px solid #635985; /* Border with color */
     border-radius: 10px; /* Rounded corners */
 }
@@ -40,7 +41,7 @@
     padding: 150px;
     width: 70%;
     // background-color: #635985;
-    box-shadow: 0 0 10px #635985, 0 0 20px #635985;
+    // box-shadow: 0 0 10px #635985, 0 0 20px #635985;
     border: 2px solid #635985;
     color: $secondary-color;
     font-weight: bolder;
@@ -76,14 +77,14 @@
         font-size: 15px;
     }
     .interests .MuiButtonBase-root {
-        height: 150px;
+        height: 100px;
         font-size: 15px;
     }
 }
 
 @media(min-width: 1024px) {
     .interests .tab-content {
-        padding: 60px;
+        padding: 80px;
         font-size: 20px;
     }
     .interests .MuiButtonBase-root {
@@ -98,7 +99,7 @@
         font-size: 20px;
     }
     .interests .MuiButtonBase-root {
-        height: 180px;
-        font-size: 15px;
+        height: 130px;
+        font-size: 20px;
     }
 }

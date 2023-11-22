@@ -4,6 +4,8 @@ import Homepage from './pages/homepage/Homepage';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; 
 import Experience from './pages/experience/Experience';
 import Project from "./pages/project/Project";
+import SingleProject from './components/singleProject/SingleProject';
+import Single from './pages/single/Single';
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
         <Route exact path="/portfolioWebsite/" element={<Homepage/>}/>
         <Route exact path="/portfolioWebsite/experience" element={<Experience/>}/>
         <Route exact path="/portfolioWebsite/projects" element={<Project/>}/>
+        <Route exact path="/portfolioWebsite/projects/:id" element={<Single/>}/>
       </Routes>
     </Router>
   );

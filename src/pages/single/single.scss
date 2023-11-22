@@ -1,0 +1,8 @@
+@import '../../styles/variables.scss'; 
+
+.single {
+    background-color: $primary-color;
+    color: $secondary-color;
+    display: flex;
+    flex-direction: column;
+}
